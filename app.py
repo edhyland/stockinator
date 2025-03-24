@@ -459,11 +459,13 @@ else:
 
 # Donation button at the bottom
 st.markdown("---")  # Add a horizontal line for separation
+import streamlit as st
+
 st.markdown(
     """
- https://www.paypal.com/donate/?business=HH5K872YT7UBQ&no_recurring=0&currency_code=USD
-
-
+    <a href="https://www.paypal.com/donate/?business=HH5K872YT7UBQ&no_recurring=0&currency_code=USD" target="_blank">
+        <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate with PayPal">
+    </a>
     """,
     unsafe_allow_html=True
 )

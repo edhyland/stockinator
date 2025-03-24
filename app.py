@@ -443,6 +443,7 @@ else:
           2. **Detect Patterns**: After data is loaded, click the "Detect Technical Patterns" button.
           3. **View Patterns**: Browse through the tabs to view detected patterns by category.
           4. **Analyze Charts**: Select a specific pattern-ticker combination to view a detailed chart with support and resistance levels.
+         
           
           ### Supported Technical Patterns:
               - **Cup with Handle**: A bullish continuation pattern.
@@ -460,14 +461,7 @@ else:
 st.markdown("---")  # Add a horizontal line for separation
 st.markdown(
     """
-<form action="https://www.paypal.com/donate" method="post" target="_top">
-<input type="hidden" name="business" value="HH5K872YT7UBQ" />
-<input type="hidden" name="no_recurring" value="0" />
-<input type="hidden" name="item_name" value="Anything that you contribute will help make this project better." />
-<input type="hidden" name="currency_code" value="USD" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-</form>
+ https://www.paypal.com/donate/?business=HH5K872YT7UBQ&no_recurring=0&currency_code=USD
 
 
     """,
